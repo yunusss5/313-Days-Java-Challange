@@ -14,6 +14,25 @@ public class operator {
         System.out.println("Division(/) of a b: "+ division);
         System.out.println("Module(%) of a b: "+ module);
 
+
+        System.out.println("2. Unary Operators");
+        int Unary_minus= -b;
+        int increment=++a; //Pre-increment (++i)
+                         //Post-increment (i++) -same in decrerment
+        int decrement=--a;
+        int bitwise_compliment=~b;
+        System.out.println("Unary minus(-) of -b: "+ Unary_minus);
+        System.out.println("Increment(++) of ++a: "+ increment);
+        System.out.println("Decrement(--) of --a: "+ decrement);
+        System.out.println("Bitwise Complement(~) of ~b: "+ bitwise_compliment);
+
+        if(a!=b){
+            System.out.println("nuNOT(!) not equal");
+        }
+        else{
+            System.out.println("nuNOT(!) equal");
+        }
+
     }
-    public void
+    
 }
